@@ -1,6 +1,6 @@
 body {
-  margin: 0;
   color: #323232;
+  margin: 0 auto;
 }
 
 h1 h2 {
@@ -18,40 +18,50 @@ h2 {
   text-transform: uppercase;
 }
 
-h3{
+h3 {
   font-family: PT Serif, serif;
   font-size: 1em;
   line-height: 2em;
 }
 
-p{
+p {
   font-family: PT Serif, serif;
   font-size:.875em;
   line-height: 1.75em;
 }
 
-a{
+a {
   font-family: PT Serif, serif;
   font-weight: bold;
   font-size: 1em;
   color: #f26522;
 }
 
-nav h1{
+nav h1 {
   font-family: PT Sans Narrow, sans-serif;
   font-weight: bold;
   font-size: 1.5em;
+  text-align: left;
+  border-top: 40px;
+  border-bottom: 40px;
 }
 
-nav p{
+nav p {
   font-family: PT Sans, sans-serif;
   font-size: .9em;
+  border-top: 40px;
+  border-bottom: 40px;
 }
 
-footer h1{
+
+footer h1 {
   font-family: PT Sans Narrow, sans-serif;
   font-weight: bold;
   font-size: 1.25em;
+}
+
+ul {
+  list-style-type: none;
 }
 
 /* On devices wider than 660px */

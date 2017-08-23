@@ -74,6 +74,47 @@ footer {
   height: 125px;
   width: auto;
 }
+.main h1 {
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 45px;
+}
+
+.main p {
+  text-align: left;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+.about{
+  display: inline-block;
+}
+
+.kat {
+  background-color: #eee;
+  margin-left: auto;
+  padding-right: 30px;
+  padding-left: auto;
+  padding-top: auto;
+  padding-bottom: auto;
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.mavis {
+  background-color: #eee;
+  margin-right: auto;
+  padding-right: 30px;
+  padding-left: auto;
+  padding-top: auto;
+  padding-bottom: auto;
+  display: inline-block;
+  margin-left: 30px;
+}
+
+.cats li {
+  list-style: none;
+  display: inline;
+}
 
 .touch {
   padding-top: 80px;
@@ -97,22 +138,30 @@ footer {
   background-color: #fff;
   margin-left: auto;
   padding-right: 30px;
-  padding-left: auto;
+  padding-left: 0;
   padding-top: auto;
   padding-bottom: auto;
   display: inline-block;
   margin-right: 30px;
 }
 
+.hours h2{
+  text-align: center;
+}
+
 .contact {
   background-color: #fff;
   margin-right: auto;
   padding-right: 30px;
-  padding-left: auto;
+  padding-left: 0;
   padding-top: auto;
   padding-bottom: auto;
   display: inline-block;
   margin-left: 30px;
+}
+
+.contact h2{
+  text-align: center;
 }
 
 .map {

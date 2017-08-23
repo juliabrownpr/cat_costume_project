@@ -43,6 +43,55 @@ h2 {
   text-transform: uppercase;
 }
 
+h3 p a {
+  font-family: 'PT Serif', serif;
+}
+
+h3 {
+  font-size: 1em;
+  line-height: 2em;
+}
+
+p {
+  font-size: .875em;
+  line-height: 1.75em;
+}
+
+a {
+  font-size: 1em;
+  color: #f26522;
+}
+
+footer {
+  background-color: #00897f;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 125px;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-weight: bold;
+  font-size: 1.25em;
+  box-sizing: border-box;
+  height: 125px;
+  width: auto;
+}
+
+.touch {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: #eee;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.touch ul {
+  list-style: none;
+  text-align: left;
+}
+
+.map {
+  margin: 0, auto;
+}
 
 /* On devices wider than 660px */
 @media(min-width: 660px) {

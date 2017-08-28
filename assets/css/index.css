@@ -91,24 +91,14 @@ footer {
 
 .kat {
   background-color: #eee;
-  margin-left: auto;
-  padding-right: 30px;
-  padding-left: auto;
-  padding-top: auto;
-  padding-bottom: auto;
-  display: inline-block;
-  margin-right: 30px;
+  float: left;
+  display: inline;
 }
 
 .mavis {
   background-color: #eee;
-  margin-right: auto;
-  padding-right: 30px;
-  padding-left: auto;
-  padding-top: auto;
-  padding-bottom: auto;
-  display: inline-block;
-  margin-left: 30px;
+  float: right;
+  display: inline;
 }
 
 .cats li {

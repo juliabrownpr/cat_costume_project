@@ -87,8 +87,8 @@ footer {
 }
 
 .main{
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 200px;
+  padding-right: 200px;
 }
 .intro h1 {
   text-align: center;
@@ -123,8 +123,22 @@ footer {
   display: inline;
 }
 
-.cats {
+.cats img {
   border-radius: 50%;
+  max-width: 250px;
+}
+
+#cool {
+  margin-right: 55px;
+}
+
+#posh {
+  margin-left: 55px;
+  margin-right: 55px;
+}
+
+#moody {
+  margin-left: 55px;
 }
 
 .cats li {

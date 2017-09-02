@@ -1,5 +1,10 @@
 body {
   color: #323232;
+  width: 100%;
+}
+
+.splash img {
+  width: 100%;
 }
 
 header h1 {

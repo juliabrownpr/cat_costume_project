@@ -1,34 +1,31 @@
 body {
   color: #323232;
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
 }
 
 header h1 {
   font-family: 'PT Sans Narrow', sans-serif;
   font-size: 1.5em;
   font-weight: bold;
+  display: flex;
   align-content: flex-start;
 }
-
 
 nav ul {
   list-style: none;
   font-family: 'PT Sans', sans-serif;
   font-size: .9em;
-  align-content: flex-end;
+  display: flex;
+  justify-content: flex-end;
 }
 
 nav li {
-  display: inline;
+  display: inline-flex;
 }
 
 header {
   display: flex;
   margin-top: 40px;
-  margin-bottom: 40px;
+  margin-bottom: 0;
   margin-left: 10px;
   margin-right: 10px;
 }
@@ -134,7 +131,6 @@ footer {
 
 .cats img {
   border-radius: 50%;
-  max-width: 250px;
 }
 
 #cool {
@@ -150,10 +146,13 @@ footer {
   margin-left: 55px;
 }
 
+.cats ul {
+  display: flex;
+  justify-content: center;
+}
+
 .cats li {
   list-style: none;
-  display: inline-flex;
-  align-self: center;
 }
 
 .touch {

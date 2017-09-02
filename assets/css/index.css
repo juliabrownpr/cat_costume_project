@@ -74,7 +74,7 @@ footer {
   font-size: 1.25em;
   box-sizing: border-box;
   height: 125px;
-  width: auto;
+  width: 100%;
 }
 
 .intro h1 {

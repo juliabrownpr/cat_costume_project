@@ -11,17 +11,23 @@ nav h1 {
   font-family: 'PT Sans Narrow', sans-serif;
   font-size: 1.5em;
   font-weight: bold;
+  width: 20%;
 }
 
-nav p {
+nav ul {
+  list-style: none;
   font-family: 'PT Sans', sans-serif;
   font-size: .9em;
+  width: 20%;
+}
+
+nav li {
+    display: inline-block;
 }
 
 nav {
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 
 header {

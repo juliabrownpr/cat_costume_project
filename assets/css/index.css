@@ -11,23 +11,26 @@ nav h1 {
   font-family: 'PT Sans Narrow', sans-serif;
   font-size: 1.5em;
   font-weight: bold;
-  width: 20%;
+  float: left;
 }
 
 nav ul {
   list-style: none;
   font-family: 'PT Sans', sans-serif;
   font-size: .9em;
-  width: 20%;
+  float: right;
 }
 
 nav li {
     display: inline-block;
+    margin: 10px 10px;
 }
 
 nav {
   display: flex;
   justify-content: space-between;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 header {
@@ -69,6 +72,10 @@ p {
 a {
   font-size: 1em;
   color: #f26522;
+}
+
+#city {
+  padding-left: 55px;
 }
 
 footer {
